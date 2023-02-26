@@ -1,0 +1,23 @@
+{
+  "name": "processing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --ext html --exec \"npm run reload\"",
+    "reload": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palankit003/Processing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/palankit003/Processing/issues"
+  },
+  "homepage": "https://github.com/palankit003/Processing#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
